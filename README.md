@@ -35,7 +35,7 @@ To demonstrate proficiency in Java, Spring Boot (3.4.4), Spring Data JPA, REST A
 3.  **Run the application:**
     * Using Maven:
         ```bash
-        mvn spring-boot:run
+        mvn sprgit ing-boot:run
         ```
     * Or run the `ProductApiApplication.java` main method directly from your IDE.
 
