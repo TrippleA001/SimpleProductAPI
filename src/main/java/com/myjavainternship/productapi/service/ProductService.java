@@ -45,10 +45,5 @@ public class ProductService {
     public void deleteProduct(Long id) {
         Product existingProduct = getProductById(id); // Ensure product exists before trying to delete
         productRepository.delete(existingProduct);
-        // Or use deleteById directly, but checking existence first provides better feedback
-        // if (!productRepository.existsById(id)) {
-        //     throw new ResourceNotFoundException("Product", "id", id);
-        // }
-        // productRepository.deleteById(id);
     }
 }
